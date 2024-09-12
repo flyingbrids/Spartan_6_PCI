@@ -1,0 +1,16 @@
+# Output products list for <ADCFIFO>
+ADCFIFO.asy
+ADCFIFO.gise
+ADCFIFO.ngc
+ADCFIFO.sym
+ADCFIFO.v
+ADCFIFO.veo
+ADCFIFO.vhd
+ADCFIFO.vho
+ADCFIFO.xco
+ADCFIFO.xise
+ADCFIFO_flist.txt
+ADCFIFO_xmdf.tcl
+_xmsgs\pn_parser.xmsgs
+fifo_generator_readme.txt
+fifo_generator_ug175.pdf
