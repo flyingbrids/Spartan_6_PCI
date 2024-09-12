@@ -8,7 +8,7 @@ use cat command to copy the generated .pub key to the clipboard
 
 # Cloning
 To clone the repository, you either need to set up SSH, or clone via HTTPS as follows:
-    git clone git@provider.com:userName/projectName.git --config core.sshCommand="ssh -i ~/location/to/private_ssh_key"
+    git clone git@github.com:flyingbrids/Spartan_6_PCI.git --config core.sshCommand="ssh -i ~/location/to/private_ssh_key"
 
 # Xilinx ISE 14.7 Setup
 
