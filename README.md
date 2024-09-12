@@ -1,6 +1,14 @@
+# Generate SSH Key
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+# Add SSH Key to the settings of the github 
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+
+use cat command to copy the generated .pub key to the clipboard
+
 # Cloning
 To clone the repository, you either need to set up SSH, or clone via HTTPS as follows:
-    git clone https://<user_name>@bitbucket.org/lizzisat/fpga.git
+    git clone git@provider.com:userName/projectName.git --config core.sshCommand="ssh -i ~/location/to/private_ssh_key"
 
 # Xilinx ISE 14.7 Setup
 
