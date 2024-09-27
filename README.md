@@ -10,6 +10,9 @@ use cat command to copy the generated .pub key to the clipboard
 To clone the repository, you either need to set up SSH, or clone via HTTPS as follows:
     git clone git@github.com:flyingbrids/Spartan_6_PCI.git --config core.sshCommand="ssh -i ~/location/to/private_ssh_key"
 
+# Pushing 
+
+
 # Xilinx ISE 14.7 Setup
 
 If working directly with the FPGA (i.e. the device drivers are needed in order to program the FPGA), the install (i.e. './xsetup') would have to be done using 'sudo', and 'sudo' must have privileges to install device drivers.  **However**, because programming is done indirectly, there is no need to install the device drivers, and therefore no need to run the install program as 'sudo' (just make sure the 'cable' item is unselected during the install).  The following instructions assume that the install is not being done using 'sudo'.
